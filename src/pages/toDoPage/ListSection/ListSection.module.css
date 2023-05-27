@@ -1,0 +1,47 @@
+.listSection {
+  height: calc(100vh - 200px);
+  width: 80vw;
+  max-width: 736px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 4rem;
+}
+
+.listHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.createdTasks {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--blue);
+}
+
+.doneTasks {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--purple);
+}
+
+.taskSummaryLabel {
+  margin-left: 0.5rem;
+  font-size: 0.75rem;
+  background-color: var(--gray-400);
+  border-radius: 999px;
+  padding: 0.125rem 0.5rem;
+  color: white;
+}
+.listItensContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}

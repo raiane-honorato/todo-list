@@ -1,0 +1,41 @@
+.customCheckbox {
+  position: relative;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 100%;
+  border: 2px solid var(--blue);
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  padding: 2px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customCheckbox:hover {
+  border-color: var(--blue-dark);
+  background-color: var(--blue-dark20);
+}
+
+.customCheckbox:focus-within {
+  outline: white solid 1px;
+}
+
+.checked {
+  border-color: var(--purple-dark);
+  background-color: var(--purple-dark);
+}
+
+.checked:hover {
+  border-color: var(--purple);
+  background-color: var(--purple);
+  opacity: 1;
+}
+
+.realCheckbox {
+  position: absolute;
+  top: -100px;
+  opacity: 0;
+}

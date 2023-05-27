@@ -1,0 +1,31 @@
+.listItemContainer {
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 1rem 1.3rem;
+  height: 4.5rem;
+
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.listItemContainerSelected {
+  border-color: var(--gray-500);
+}
+
+.listItemContainer > :first-child {
+  flex-shrink: 0;
+}
+
+.listItemLabel {
+  width: 100%;
+  color: var(--gray-100);
+  font-size: 0.875rem;
+}
+
+.listItemLabelSelected {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
